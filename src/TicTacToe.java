@@ -81,9 +81,9 @@ public class TicTacToe {
         while(win==false) {
             do {
                 valid = true;
-                System.out.println("Inserirt x coordinate:");
+                System.out.println("Insert x coordinate:");
                 x = in.nextInt();
-                System.out.println("Inserirt y coordinate:");
+                System.out.println("Insert y coordinate:");
                 y = in.nextInt();
 
                 if (fullBoardCheck(board)==true)
